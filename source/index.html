@@ -44,17 +44,47 @@
     Главная страница студии дизайна «Brume».
   </h1>
   <section class="promo">
-    <h2 class="promo__title">
-      Дизайн интерьеров
-    </h2>
-    <img class="promo__image" src="img/promo/promo.jpg" width="1163" height="595"
-         alt="Пример нашего дизайна интерьера.">
-    <p class="promo__text">
-      Воплотим в жизнь интерьер, который будет радовать лаконичностью и уютом.
-    </p>
-    <a class="promo__link" href="#">
-      Заказать дизайн
-    </a>
+    <ul class="promo__list">
+      <li class="promo__item">
+        <h2 class="promo__title">
+          Дизайн интерьеров
+        </h2>
+        <img class="promo__image" src="img/promo/promo.jpg" width="1163" height="595"
+             alt="Пример нашего дизайна интерьера.">
+        <p class="promo__text">
+          Воплотим в жизнь интерьер, который будет радовать лаконичностью и уютом.
+        </p>
+        <a class="promo__link" href="#">
+          Заказать дизайн
+        </a>
+      </li>
+    </ul>
+    <ul class="promo__slider-button-list slider-buttons">
+      <li class="slider-buttons-item">
+        <label class="visually-hidden" for="promo-slide-1">
+          Первый слайд.
+        </label>
+        <input class="slider-buttons__checkbox" type="checkbox" id="promo-slide-1" name="promo-slide-1">
+      </li>
+      <li class="slider-buttons-item">
+        <label class="visually-hidden" for="promo-slide-2">
+          Второй слайд.
+        </label>
+        <input class="slider-buttons__checkbox" type="checkbox" id="promo-slide-2" name="promo-slide-2">
+      </li>
+      <li class="slider-buttons-item">
+        <label class="visually-hidden" for="promo-slide-3">
+          Третий слайд.
+        </label>
+        <input class="slider-buttons__checkbox" type="checkbox" id="promo-slide-3" name="promo-slide-3">
+      </li>
+      <li class="slider-buttons-item">
+        <label class="visually-hidden" for="promo-slide-4">
+          Четвертый слайд.
+        </label>
+        <input class="slider-buttons__checkbox" type="checkbox" id="promo-slide-4" name="promo-slide-4">
+      </li>
+    </ul>
   </section>
   <section class="advantages">
     <h2 class="visually-hidden">
@@ -271,30 +301,30 @@
         </blockquote>
       </li>
     </ul>
-    <ul class="reviews__slider-button-list">
-      <li class="reviews__slider-button-item">
+    <ul class="reviews__slider-buttons-list slider-buttons">
+      <li class="slider-buttons-item">
         <label class="visually-hidden" for="slide-1">
           Первый слайд.
         </label>
-        <input class="reviews__checkbox" type="checkbox" id="slide-1" name="slide-1">
+        <input class="slider-buttons__checkbox" type="checkbox" id="slide-1" name="slide-1">
       </li>
-      <li class="reviews__slider-button-item">
+      <li class="slider-buttons-item">
         <label class="visually-hidden" for="slide-2">
           Второй слайд.
         </label>
-        <input class="reviews__checkbox" type="checkbox" id="slide-2" name="slide-2">
+        <input class="slider-buttons__checkbox" type="checkbox" id="slide-2" name="slide-2">
       </li>
-      <li class="reviews__slider-button-item">
+      <li class="slider-buttons-item">
         <label class="visually-hidden" for="slide-3">
           Третий слайд.
         </label>
-        <input class="reviews__checkbox" type="checkbox" id="slide-3" name="slide-3">
+        <input class="slider-buttons__checkbox" type="checkbox" id="slide-3" name="slide-3">
       </li>
-      <li class="reviews__slider-button-item">
+      <li class="slider-buttons-item">
         <label class="visually-hidden" for="slide-4">
           Четвертый слайд.
         </label>
-        <input class="reviews__checkbox" type="checkbox" id="slide-4" name="slide-4">
+        <input class="slider-buttons__checkbox" type="checkbox" id="slide-4" name="slide-4">
       </li>
     </ul>
   </section>
